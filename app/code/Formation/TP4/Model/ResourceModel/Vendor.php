@@ -1,33 +1,20 @@
 <?php
 
-namespace Correction\TP4bis\Model\ResourceModel;
+namespace Formation\TP4\Model\ResourceModel;
 
-use Magento\Framework\Model\AbstractModel;
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
-class Vendor extends AbstractDb
-{
+class Vendor extends AbstractDb{
+
     protected $linkTable = '';
     protected $productIds = [];
 
-    /**
-     * Initialize resource model
-     *
-     * @return void
-     */
     protected function _construct()
     {
-        $this->_init('correctiontp4_vendor', 'vendor_id');
+        $this->_init('tp4_vendor', 'vendor_id');
         $this->linkTable = $this->getTable('correctiontp4_catalog_product_vendor');
     }
 
-    /**
-     * Perform actions after object load
-     *
-     * @param \Magento\Framework\Model\AbstractModel|\Magento\Framework\DataObject $object
-     * @return $this
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
     protected function _afterLoad(\Magento\Framework\Model\AbstractModel $object)
     {
         $conn = $this->getConnection();
@@ -42,13 +29,7 @@ class Vendor extends AbstractDb
         return parent::_afterLoad($object);
     }
 
-    /**
-     * Perform actions before object save
-     *
-     * @param \Magento\Framework\Model\AbstractModel|\Magento\Framework\DataObject $object
-     * @return $this
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
+
     protected function _beforeSave(\Magento\Framework\Model\AbstractModel $object)
     {
         $productIds = $object->getData('product_ids');
@@ -60,13 +41,7 @@ class Vendor extends AbstractDb
         return parent::_beforeSave($object);
     }
 
-    /**
-     * Perform actions after object save
-     *
-     * @param \Magento\Framework\Model\AbstractModel|\Magento\Framework\DataObject $object
-     * @return $this
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
+
     protected function _afterSave(\Magento\Framework\Model\AbstractModel $object)
     {
         $productIds = $this->productIds;
@@ -78,10 +53,8 @@ class Vendor extends AbstractDb
         {
             $toInsert[] = ['vendor_id' => $object->getId(), 'product_id' => $productId];
         }
-        if($toInsert){
-            $conn->insertMultiple($this->linkTable, $toInsert);
-        }
         $conn->insertMultiple($this->linkTable, $toInsert);
         return parent::_afterSave($object);
     }
+
 }

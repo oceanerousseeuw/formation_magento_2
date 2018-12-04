@@ -1,15 +1,604 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af192722-b5d4-4569-b6b9-5aaaf7644b3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP1/Console/Command/HelloWorld.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP1/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP1/etc/di.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP1/etc/module.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP1/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/Controller/Json/Test1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/Controller/Json/Test2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/Controller/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/etc/frontend/routes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/etc/module.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP2/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP3/Controller/Product/Findproduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP3/Controller/Product/Findproductcollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP3/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP3/etc/frontend/routes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP3/etc/module.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP3/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Controller/Series/CreateSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Controller/Series/DeleteSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Controller/Series/EditSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Controller/Series/PrintAllSeries.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Controller/Series/PrintSerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Model/ResourceModel/Series.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Model/ResourceModel/Series/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Model/ResourceModel/Vendor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Model/ResourceModel/Vendor/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Model/Series.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Model/Vendor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Setup/InstallSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/Setup/UpgradeSchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/etc/frontend/routes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/etc/module.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/Formation/TP4/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/formation_magento_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/formation_magento_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Correction/TP4/Model/ResourceModel/Vendor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Correction/TP4/Model/ResourceModel/Vendor.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/Correction/TP4/Model/ResourceModel/Vendor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/code/Correction/TP4/Model/ResourceModel/Vendor.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/vendor/magento/magento-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-loader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/klarna/module-kp" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-psr7bridge" />
+      <path value="$PROJECT_DIR$/vendor/magento/framework" />
+      <path value="$PROJECT_DIR$/vendor/colinmollenhour/cache-backend-file" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-log" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-serializer" />
+      <path value="$PROJECT_DIR$/vendor/colinmollenhour/cache-backend-redis" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/vendor/magento/magento2-base" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/colinmollenhour/credis" />
+      <path value="$PROJECT_DIR$/vendor/amzn/amazon-pay-sdk-php" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/donatj/phpuseragentparser" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-crypt" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-server" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/temando/module-shipping-m2" />
+      <path value="$PROJECT_DIR$/vendor/tedivm/jshrink" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/dotmailer/dotmailer-magento2-extension" />
+      <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
+      <path value="$PROJECT_DIR$/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/vendor/vertex/sdk" />
+      <path value="$PROJECT_DIR$/vendor/vertex/module-tax" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/colinmollenhour/php-redis-session-abstract" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/log" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/amzn/amazon-pay-and-login-with-amazon-core-module" />
+      <path value="$PROJECT_DIR$/vendor/amzn/login-with-amazon-module" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-view" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/output-formatters" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mail" />
+      <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-db" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib" />
+      <path value="$PROJECT_DIR$/vendor/epfremme/swagger-php" />
+      <path value="$PROJECT_DIR$/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-session" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-sales" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-grouped-product-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-configurable-product-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-currency-symbol" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-quote-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-indexer" />
+      <path value="$PROJECT_DIR$/vendor/mustache/mustache" />
+      <path value="$PROJECT_DIR$/vendor/klarna/module-ordermanagement" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-inventory-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swatches-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-product-alert" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-tax-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-widget" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-source-selection-api" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-admin-notification" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swagger-webapi" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-shipping" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-rule" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-backend" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-directory" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-shipping" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-mysql-mq" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-ups" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-configurable-product-sales" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-advanced-search" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-quote-analytics" />
+      <path value="$PROJECT_DIR$/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-newsletter" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-source-selection" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-eav" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-downloadable-import-export" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-payment" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-review-analytics" />
+      <path value="$PROJECT_DIR$/vendor/msp/recaptcha" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cms-url-rewrite-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/msp/twofactorauth" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-reservations" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cms-url-rewrite" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-webapi" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cms" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-low-quantity-notification-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-message-queue" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-fedex" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-security" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-user" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-wishlist-analytics" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-customer" />
+      <path value="$PROJECT_DIR$/vendor/league/container" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-bundle-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-catalog-api" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-sales-frontend-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-require-js" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-grouped-product-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-soap" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-downloadable-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-url-rewrite" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-catalog" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-vault" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-developer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-customer-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-weee" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-bundle-product" />
+      <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-customer-analytics" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-reports" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-store" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-instant-purchase" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-wishlist" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-downloadable" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/robo" />
+      <path value="$PROJECT_DIR$/vendor/magento/theme-frontend-blank" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-advanced-pricing-import-export" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swagger-webapi-async" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-new-relic-reporting" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales-inventory" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-authorizenet" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-encryption-key" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-webapi-security" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-bundle" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-search" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-sales-api" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-tax" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-contact" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-rule-configurable" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-page-cache" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-gift-message" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales-sequence" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-offline-payments" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-email" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales-analytics" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-import-export" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-config" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-backup" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swatches-layered-navigation" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-configurable-product" />
+      <path value="$PROJECT_DIR$/vendor/braintree/braintree_php" />
+      <path value="$PROJECT_DIR$/vendor/lusitanian/oauth" />
+      <path value="$PROJECT_DIR$/vendor/magento/zendframework1" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-grouped-product-indexer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-configuration-api" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-media-storage" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-source-deduction-api" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-asynchronous-operations" />
+      <path value="$PROJECT_DIR$/vendor/elasticsearch/elasticsearch" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/vendor/magento/theme-adminhtml-backend" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-url-rewrite-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-api" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-quote" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-marketplace" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-msrp" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-translation" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-catalog-search" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-deploy" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-release-notification" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-google-optimizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-inventory" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-catalog-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-elasticsearch" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-authorization" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-configuration" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-send-friend" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-eav-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-grouped-product" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-variable" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cron" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-bundle-product-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-widget" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/yubico/u2flib-server" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-offline-shipping" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mime" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-multi-dimensional-indexer-api" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-persistent" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-rss" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-grouped-product" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-low-quantity-notification" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cache-invalidate" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-robots" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-signifyd" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-catalog-analytics" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-cache" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-analytics" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-checkout" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-product-video" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-braintree" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-product-alert" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swagger" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-form" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-tinymce-3" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-dhl" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-modulemanager" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-reservations-api" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-configurable-product" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-swatches" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-integration" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-checkout-agreements" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-configurable-product-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-indexer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-customer-import-export" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/finder-facade" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-sales-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-captcha" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-low-quantity-notification-api" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sitemap" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cms-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-rule" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-cookie" />
+      <path value="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-shipping-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-configurable-product-indexer" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-multishipping" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-configurable-import-export" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-store-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-google-analytics" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-google-adwords" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sample-data" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-import-export" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-bundle-import-export" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-layered-navigation" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-inventory-import-export" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-weee-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-theme" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-captcha" />
+      <path value="$PROJECT_DIR$/vendor/magento/magento2-functional-testing-framework" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-url-rewrite-graph-ql" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-usps" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-paypal" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-tax-import-export" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-review" />
+      <path value="$PROJECT_DIR$/vendor/magento/theme-frontend-luma" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-grouped-import-export" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-search" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-amqp" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-sales-rule" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/magento/module-webapi-async" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/true/punycode" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/theseer/fdomdocument" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-text" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/klarna/module-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-di" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/phpcpd" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/magento/composer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-uri" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/mcrypt_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-validator" />
+      <path value="$PROJECT_DIR$/vendor/magento/framework-amqp" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/pelago/emogrifier" />
+      <path value="$PROJECT_DIR$/vendor/tubalmartin/cssmin" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-inputfilter" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/self-update" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/magento/inventory-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/christian-riesen/base32" />
+      <path value="$PROJECT_DIR$/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/flow/jsonpath" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-de_de" />
+      <path value="$PROJECT_DIR$/vendor/spomky-labs/otphp" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/allure-framework/allure-codeception" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-en_us" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/magento/framework-bulk" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-es_es" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/allure-framework/allure-php-api" />
+      <path value="$PROJECT_DIR$/vendor/oyejorge/less.php" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-fr_fr" />
+      <path value="$PROJECT_DIR$/vendor/magento/framework-message-queue" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/annotated-command" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-nl_nl" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/amzn/amazon-pay-module" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-pt_br" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/magento/language-zh_hans_cn" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="98" />
     <option name="y" value="52" />
     <option name="width" value="1398" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Correction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP4" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formation_magento_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formation_magento_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP4" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="ResourceModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af192722-b5d4-4569-b6b9-5aaaf7644b3e" name="Default Changelist" comment="" />
+      <created>1543928317662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543928317662</updated>
+      <workItem from="1543928319223" duration="376000" />
+      <workItem from="1543930723743" duration="683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1059000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/code/Correction/TP4/Model/ResourceModel/Vendor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
