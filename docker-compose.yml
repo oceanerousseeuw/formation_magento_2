@@ -1,0 +1,34 @@
+version: '2.0'
+services:
+  web:
+    build: ./docker
+    volumes:
+      - .:/var/www/magentecna
+    networks:
+      - traefik
+    environment:
+      - "VIRTUAL_HOST=local.magentecna.com"
+    labels:
+       - "traefik.backend=magento"
+       - "traefik.frontend.rule=Host:local.magentecna.fr"
+
+  db:
+    image: mysql:5.7
+    networks: 
+      - traefik
+    environment:
+      - "MYSQL_ROOT_PASSWORD=root1"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db
+    networks: 
+      - traefik
+    labels:
+       - "traefik.frontend.rule=Host:pma.magentecna.fr"
+
+networks:
+    traefik:
+      external:
+          name: traefik_webgateway
