@@ -18,6 +18,8 @@ services:
       - traefik
     environment:
       - "MYSQL_ROOT_PASSWORD=root1"
+    volumes:
+      - ./db:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
