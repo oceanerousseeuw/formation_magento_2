@@ -1,0 +1,11 @@
+<?php
+$customerData = $block->getCustomerInfos();
+?>
+<div class="ctp6-customer-data">
+    <dl>
+        <?php foreach($customerData as $key => $value): ?>
+            <dt><?= __($key) ?></dt>
+            <dd><?= $value ?></dd>
+        <?php endforeach; ?>
+    </dl>
+</div>

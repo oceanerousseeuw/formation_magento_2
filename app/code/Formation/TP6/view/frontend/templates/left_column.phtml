@@ -1,0 +1,14 @@
+<?php
+$addressesData = $block->getCustomerAddress();
+?>
+<div class="ctp6-customer-data">
+    <dl>
+        <?php foreach($addressesData as $addressData): ?>
+            <hr />
+            <?php foreach($addressData as $key => $value): ?>
+                <dt><?= __($key) ?></dt>
+                <dd><?= $value ?></dd>
+            <?php endforeach; ?>
+        <?php endforeach; ?>
+    </dl>
+</div>

@@ -1,0 +1,21 @@
+{
+    "name": "formation/module-tp6-ter",
+    "description": "N/A",
+    "require": {
+        "correction/module-tp6-bis": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Formation\\TP6ter\\": ""
+        }
+    },
+    "version": "100.3.0"
+}

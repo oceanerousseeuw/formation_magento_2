@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="mage/gallery/gallery.css"/>
+    </head>
+    <body>
+        <referenceContainer name="sidebar.main">
+            <block class="Formation\TP6\Block\CustomerAddress" name="customer_address"
+                   template="left_column.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="main">
+            <block class="Formation\TP6\Block\CustomerInfos" name="customer_infos"
+                   template="content.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="sidebar.additional">
+            <block class="Formation\TP6\Block\FreeMessage" name="free_message"
+                   template="right_column.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
