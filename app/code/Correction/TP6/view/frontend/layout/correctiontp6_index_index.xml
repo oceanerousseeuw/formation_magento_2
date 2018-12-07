@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="3columns" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="main">
+            <block name="ctp6.customer.info" class="Correction\TP6\Block\Customer\Info" template="Correction_TP6::customer/info.phtml" />
+        </referenceContainer>
+        <referenceContainer name="sidebar.main">
+            <block name="ctp6.customer.addresses" class="Correction\TP6\Block\Customer\Info" template="Correction_TP6::customer/addresses.phtml" />
+        </referenceContainer>
+        <referenceContainer name="sidebar.additional">
+            <block class="Magento\Framework\View\Element\Text" name="ctp6.whatever">
+                <action method="setText">
+                    <argument name="text" xsi:type="string">Texte libre</argument>
+                </action>
+            </block>
+            <block name="ctp6.now" class="Correction\TP6\Block\Now" after="ctp6.whatever" cacheable="false" />
+        </referenceContainer>
+    </body>
+</page>

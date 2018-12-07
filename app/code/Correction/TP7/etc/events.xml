@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="customer_load_after">
+        <observer name="customer_load_after_ctp7" instance="Correction\TP7\Observer\AddTrigramme" />
+    </event>
+</config>

@@ -1,0 +1,21 @@
+{
+    "name": "correction/module-tp4-bis",
+    "description": "N/A",
+    "require": {
+        "correction/module-tp4": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Correction\\TP4bis\\": ""
+        }
+    },
+    "version": "100.3.0"
+}

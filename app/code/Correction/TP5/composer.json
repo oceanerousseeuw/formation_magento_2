@@ -1,0 +1,23 @@
+{
+    "name": "correction/module-tp5",
+    "description": "N/A",
+    "require": {
+        "magento/module-eav": "*",
+        "correction/module-tp4ter": "*"
+
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Correction\\TP5\\": ""
+        }
+    },
+    "version": "100.3.0"
+}

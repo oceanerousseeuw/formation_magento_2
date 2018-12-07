@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Correction\TP9\Api\VendorRepositoryInterface" type="Correction\TP9\Model\VendorRepository" />
+    <preference for="Correction\TP9\Api\Data\VendorInterface" type="Correction\TP9\Model\Data\Vendor" />
+    <preference for="Correction\TP9\Api\Data\VendorSearchResultInterface" type="Magento\Framework\Api\SearchResults" />
+</config>

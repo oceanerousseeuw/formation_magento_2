@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="3columns" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <move element="ctp6.whatever" destination="sidebar.main" after="ctp6.customer.addresses" />
+
+        <referenceContainer name="sidebar.additional">
+            <block class="Magento\Framework\View\Element\Text" name="ctp6.whatever.else" after="-">
+                <action method="setText">
+                    <argument name="text" xsi:type="string">Un autre texte libre</argument>
+                </action>
+            </block>
+        </referenceContainer>
+
+        <referenceBlock name="ctp6.now" remove="true" />
+    </body>
+</page>
