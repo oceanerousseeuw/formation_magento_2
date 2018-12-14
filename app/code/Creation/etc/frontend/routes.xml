@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="correctiontp2" frontName="correctiontp2">
-            <module name="Correction_TP2" />
+        <route id="correctiontp9" frontName="correctiontp9">
+            <module name="Correction_TP9" />
         </route>
     </router>
 </config>

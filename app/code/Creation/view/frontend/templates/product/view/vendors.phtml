@@ -1,0 +1,14 @@
+<?php
+$vendorsData = $block->getVendorsData();
+?>
+<div class="ctp6-product-data">
+    <dl>
+        <?php foreach($vendorsData as $vendorData): ?>
+            <hr />
+            <?php foreach($vendorData as $key => $value): ?>
+                <dt><?= __($key) ?></dt>
+                <dd><?= $value ?></dd>
+            <?php endforeach; ?>
+        <?php endforeach; ?>
+    </dl>
+</div>

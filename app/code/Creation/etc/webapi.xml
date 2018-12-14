@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+
+    <route url="/V1/vendors/search" method="GET">
+        <service class="Correction\TP9\Api\VendorRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/vendors/:id" method="GET">
+        <service class="Correction\TP9\Api\VendorRepositoryInterface" method="load"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/vendors/:id/products" method="GET">
+        <service class="Correction\TP9\Api\VendorRepositoryInterface" method="getAssociatedProductIds"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/vendors" method="POST">
+        <service class="Correction\TP9\Api\VendorRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

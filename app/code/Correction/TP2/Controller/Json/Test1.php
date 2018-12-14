@@ -4,7 +4,6 @@ namespace Correction\TP2bis\Controller\Json;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;
-use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\Controller\Result\JsonFactory;
 
 class Test1 extends Action
@@ -19,14 +18,7 @@ class Test1 extends Action
         parent::__construct($context);
         $this->jsonFactory = $jsonFactory;
     }
-    /**
-     * Execute action based on request and return result
-     *
-     * Note: Request will be added as operation argument in future
-     *
-     * @return \Magento\Framework\Controller\ResultInterface|ResponseInterface
-     * @throws \Magento\Framework\Exception\NotFoundException
-     */
+
     public function execute()
     {
         $json = $this->jsonFactory->create();
@@ -41,3 +33,5 @@ class Test1 extends Action
         return $json;
     }
 }
+
+
